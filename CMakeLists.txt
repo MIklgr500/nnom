@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.7)
-set(NNOM_PROJECT_NAME nnom-lib)
+set(NNOM_PROJECT_NAME nnom)
 
 project(${NNOM_PROJECT_NAME})
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 14)
 
 if (UNIX AND NOT APPLE)
